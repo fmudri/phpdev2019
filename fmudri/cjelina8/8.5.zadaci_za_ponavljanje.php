@@ -7,7 +7,7 @@ $filename = 'datoteka.txt';
 
 $handle = fopen($filename, 'r');
 
-$contents = fread($handle, $filesize($filename));
+$contents = fread($handle, filesize($filename));
 fclose($handle);
 
 echo $contents;
@@ -31,8 +31,9 @@ echo "Treći zadatak:<br />";
 echo '<hr>';
 //program s kojim se dohvaća sadržaj, uređuje se i vraća u istu datoteku
 
-if(is_dir($filename)){
-    $handle = fopen($filename, 'a');
-    fwrite($handle, $filename);
-    fclose($handle);
-}
+//if(is_file($filename)){
+//    $handle = fopen($filename, 'a');
+//    fwrite($handle, $filename);
+//    fclose($handle);
+//}
+// rjesenje je aursanic/zadaca3b.php
