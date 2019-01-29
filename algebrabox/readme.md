@@ -10,3 +10,5 @@
 - Dodavanje nove datoteke na poslužitelja
 - Izmjenu imena pojedinačne datoteke na poslužitelju
 - Brisanje zadane datoteke na poslužitelju
+
+http://localhost:8000/algebrabox/index.php
