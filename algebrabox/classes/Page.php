@@ -39,7 +39,7 @@
 			header("Location: index.php");
 		}
 		
-		private function UserIsAuthenticated()
+		public  function UserIsAuthenticated()
 		{
 			return $this->_authenticator->UserIsAuthentic();
 		}
